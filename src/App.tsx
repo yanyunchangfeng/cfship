@@ -9,8 +9,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Button href={'ddd'} autoFocus>Hello</Button>
-        <Button btnType={ButtonType.Primary} size ={ButtonSize.Large} disabled>Hello</Button>
-        <Button btnType={ButtonType.Link} href={'http://baidu.com'} disabled >Hello</Button>
+        <Button btnType={'primary'} size ={'lg'} disabled>Hello</Button>
+        <Button btnType={'link'} href={'http://baidu.com'} disabled >Hello</Button>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
