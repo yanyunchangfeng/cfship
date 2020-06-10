@@ -1,9 +1,15 @@
-import React from 'react';
+import React,{useRef} from 'react';
 import logo from './logo.svg';
 import './styles/index.scss';
-import Button,{ButtonType,ButtonSize} from './components/Button/button'
+import Button from './components/Button/button'
+import useClickOutside from './hooks/useClickOutside';
+
 
 function App() {
+  const ref = useRef<HTMLInputElement>(null)
+  useClickOutside(ref,()=>{
+    console.log('不在input框类')
+  })
   return (
     <div className="App">
       <header className="App-header">
@@ -14,6 +20,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <input type="text" ref={ref}/>
         <a
           className="App-link"
           href="https://reactjs.org"

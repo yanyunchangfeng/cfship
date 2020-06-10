@@ -40,6 +40,6 @@ storiesOf('Button Component', module)
           inline:true
       }
   })
-  .add('default Button', defaultButton)
-  .add('different ButtonSize',buttonWithSize,{info:false})
+  .add('Button', defaultButton)
+  .add('different ButtonSize',buttonWithSize,{info:false,header:false})
   .add('different ButtonType',buttonWithType)
