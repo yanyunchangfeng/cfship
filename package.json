@@ -2,6 +2,12 @@
   "name": "cfship",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "keywords": [
+    "Component",
+    "UI",
+    "React"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
