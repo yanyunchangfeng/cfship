@@ -20,9 +20,9 @@ const buttonWithSize = () => <>
 
 const buttonWithType =()=>(
     <>
-    <Button btnType='primary'>large button</Button>
-    <Button btnType='danger'>small button</Button>
-    <Button btnType='link' href="https://github.com/yanyunchangfeng">small button</Button>
+    <Button btnType='primary'>primary</Button>
+    <Button btnType='danger'>danger</Button>
+    <Button btnType='link' href="https://github.com/yanyunchangfeng">link</Button>
     </>
 )
 storiesOf('Button Component', module)
