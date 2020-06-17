@@ -15,5 +15,7 @@
       "src/**/*.test.tsx",
       "src/**/*.stories.tsx",
       "src/setupTests.ts",
+      "src/App.tsx",
+      "src/serviceWorker.ts",
     ]
   }
